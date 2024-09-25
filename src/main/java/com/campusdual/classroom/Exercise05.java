@@ -2,8 +2,9 @@ package com.campusdual.classroom;
 
 public class Exercise05 {
     public static void main(String[] args) {
+
         checkMultiply(4,2);
-        checkPositiveNegative(-3);
+        checkPositiveNegative(3);
         checkLessOrGreaterEqual(4,2);
     }
 
@@ -26,9 +27,9 @@ public class Exercise05 {
         int resto;
         resto = n1 % n2;
         if(resto == 0){
-            System.out.println("X es múltiplo de Y");
+            System.out.println("X es multiplo de Y");
         }else {
-            System.out.println("X no es múltiplo de Y");
+            System.out.println("X no es multiplo de Y");
         }
 
 
@@ -38,10 +39,10 @@ public class Exercise05 {
     // Si es negativo, tiene que devolver el siguiente mensaje: X es negativo.
     // Si es positivo o cero, tiene que devolver el siguiente mensaje: X es positivo.
     public static void checkPositiveNegative(int num) {
-        if(num >= 0){
-            System.out.println("X es positivo");
-        }else{
-            System.out.println("X es negativo");
-        }
+            if(num >= 0){
+                System.out.println("X es positivo.");
+            }else {
+                System.out.println("X es negativo.");
+            }
     }
 }
